@@ -1,0 +1,67 @@
+ls
+git log -- log-tree.h
+git log -2
+git log -3
+git log --since=2.weeks.ago
+git log --oneline --since=2.weeks.ago
+git log --after=2.weeks.ago
+git log --oneline --after=2.weeks.ago
+git log --oneline --since=2.weeks.ago --until=1.week.ago
+git log
+git log --author="Matthieu Moy"
+git log --committer="Matthieu Moy"
+git log --committer="Junio"
+ls
+vi log-tree.h
+git log -S "show_decorations"
+git log --grep="show_decorations"
+ls
+sublime log-tree.h
+git log -L :log_tree_diff_flush:log-tree.h
+git log --oneline -L :log_tree_diff_flush:log-tree.h
+git log -L 10,12:log-tree.h
+git log --oneline -L 10,12:log-tree.h
+git log --oneline -L 10,12:log-tree.h
+git branch
+git checkout -b featA
+touch demo.md
+git status
+git add demo.md
+git commit -m "show history across branches"
+git checkout master 
+touch never-do-this.md
+git add never-do-this.md
+git commit -m "do as I say, not as I do..."
+git checkout featA 
+git log featA..master 
+git log master..featA 
+git log master..
+git log ..master 
+git log featA ^master
+git log featA --not master
+git log
+git checkout master 
+git log
+git checkout -b featB 5b1d901c0173b41010856e30776c92d02987ea25
+git log featB..featA
+git log featA..
+touch new-commit.md
+git add new-commit.md
+git commit -m "need another commit"
+git log featA featB --not master 
+git log master --not featA featB
+git log master ^featA featB
+git log master ^featA ^featB
+git log featA...featB
+git log --left-right featA...featB
+git branch
+git log --oneline --graph --decorate --all
+git log --oneline --decorate --graph --all
+git lga
+git checkout master 
+git log master..origin/master 
+git log origin/master..master 
+history 500 | tail > ~/Desktop/test.txt 
+history 500 > ~/Desktop/test.txt 
+history 65 > ~/Desktop/test.txt 
+history 67 > ~/Desktop/te
