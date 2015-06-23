@@ -1,0 +1,1739 @@
+~/github/git (master)  > ls
+COPYING                       exec_cmd.h                    mergesort.c                   streaming.h
+Documentation                 fast-import.c                 mergesort.h                   string-list.c
+GIT-VERSION-GEN               fetch-pack.c                  mergetools                    string-list.h
+INSTALL                       fetch-pack.h                  name-hash.c                   submodule.c
+LGPL-2.1                      fmt-merge-msg.h               notes-cache.c                 submodule.h
+Makefile                      fsck.c                        notes-cache.h                 symlinks.c
+README                        fsck.h                        notes-merge.c                 t
+RelNotes                      generate-cmdlist.perl         notes-merge.h                 tag.c
+abspath.c                     gettext.c                     notes-utils.c                 tag.h
+aclocal.m4                    gettext.h                     notes-utils.h                 tar.h
+advice.c                      git-add--interactive.perl     notes.c                       templates
+advice.h                      git-am.sh                     notes.h                       test-chmtime.c
+alias.c                       git-archimport.perl           object.c                      test-config.c
+alloc.c                       git-bisect.sh                 object.h                      test-ctype.c
+archive-tar.c                 git-compat-util.h             pack-bitmap-write.c           test-date.c
+archive-zip.c                 git-cvsexportcommit.perl      pack-bitmap.c                 test-delta.c
+archive.c                     git-cvsimport.perl            pack-bitmap.h                 test-dump-cache-tree.c
+archive.h                     git-cvsserver.perl            pack-check.c                  test-dump-split-index.c
+argv-array.c                  git-difftool--helper.sh       pack-objects.c                test-dump-untracked-cache.c
+argv-array.h                  git-difftool.perl             pack-objects.h                test-genrandom.c
+attr.c                        git-filter-branch.sh          pack-revindex.c               test-hashmap.c
+attr.h                        git-gui                       pack-revindex.h               test-index-version.c
+base85.c                      git-instaweb.sh               pack-write.c                  test-line-buffer.c
+bisect.c                      git-merge-octopus.sh          pack.h                        test-match-trees.c
+bisect.h                      git-merge-one-file.sh         pager.c                       test-mergesort.c
+blob.c                        git-merge-resolve.sh          parse-options-cb.c            test-mktemp.c
+blob.h                        git-mergetool--lib.sh         parse-options.c               test-parse-options.c
+block-sha1                    git-mergetool.sh              parse-options.h               test-path-utils.c
+branch.c                      git-p4.py                     patch-delta.c                 test-prio-queue.c
+branch.h                      git-parse-remote.sh           patch-ids.c                   test-read-cache.c
+builtin                       git-pull.sh                   patch-ids.h                   test-regex.c
+builtin.h                     git-quiltimport.sh            path.c                        test-revision-walking.c
+bulk-checkin.c                git-rebase--am.sh             pathspec.c                    test-run-command.c
+bulk-checkin.h                git-rebase--interactive.sh    pathspec.h                    test-scrap-cache-tree.c
+bundle.c                      git-rebase--merge.sh          perl                          test-sha1-array.c
+bundle.h                      git-rebase.sh                 pkt-line.c                    test-sha1.c
+cache-tree.c                  git-relink.perl               pkt-line.h                    test-sha1.sh
+cache-tree.h                  git-remote-testgit.sh         po                            test-sigchain.c
+cache.h                       git-request-pull.sh           ppc                           test-string-list.c
+check-builtins.sh             git-send-email.perl           preload-index.c               test-subprocess.c
+check-racy.c                  git-sh-i18n.sh                pretty.c                      test-svn-fe.c
+check_bindir                  git-sh-setup.sh               prio-queue.c                  test-urlmatch-normalization.c
+color.c                       git-stash.sh                  prio-queue.h                  test-wildmatch.c
+color.h                       git-submodule.sh              progress.c                    thread-utils.c
+column.c                      git-svn.perl                  progress.h                    thread-utils.h
+column.h                      git-web--browse.sh            prompt.c                      trace.c
+combine-diff.c                git.c                         prompt.h                      trace.h
+command-list.txt              git.rc                        quote.c                       trailer.c
+commit-slab.h                 git.spec.in                   quote.h                       trailer.h
+commit.c                      gitk-git                      reachable.c                   transport-helper.c
+commit.h                      gitweb                        reachable.h                   transport.c
+compat                        gpg-interface.c               read-cache.c                  transport.h
+config.c                      gpg-interface.h               reflog-walk.c                 tree-diff.c
+config.mak.in                 graph.c                       reflog-walk.h                 tree-walk.c
+config.mak.uname              graph.h                       refs.c                        tree-walk.h
+configure.ac                  grep.c                        refs.h                        tree.c
+connect.c                     grep.h                        remote-curl.c                 tree.h
+connect.h                     hashmap.c                     remote-testsvn.c              unicode_width.h
+connected.c                   hashmap.h                     remote.c                      unimplemented.sh
+connected.h                   help.c                        remote.h                      unix-socket.c
+contrib                       help.h                        replace_object.c              unix-socket.h
+convert.c                     hex.c                         rerere.c                      unpack-trees.c
+convert.h                     http-backend.c                rerere.h                      unpack-trees.h
+copy.c                        http-fetch.c                  resolve-undo.c                update_unicode.sh
+credential-cache--daemon.c    http-push.c                   resolve-undo.h                upload-pack.c
+credential-cache.c            http-walker.c                 revision.c                    url.c
+credential-store.c            http.c                        revision.h                    url.h
+credential.c                  http.h                        run-command.c                 urlmatch.c
+credential.h                  ident.c                       run-command.h                 urlmatch.h
+csum-file.c                   imap-send.c                   send-pack.c                   usage.c
+csum-file.h                   khash.h                       send-pack.h                   userdiff.c
+ctype.c                       kwset.c                       sequencer.c                   userdiff.h
+daemon.c                      kwset.h                       sequencer.h                   utf8.c
+date.c                        levenshtein.c                 server-info.c                 utf8.h
+decorate.c                    levenshtein.h                 setup.c                       varint.c
+decorate.h                    line-log.c                    sh-i18n--envsubst.c           varint.h
+delta.h                       line-log.h                    sha1-array.c                  vcs-svn
+diff-delta.c                  line-range.c                  sha1-array.h                  version.c
+diff-lib.c                    line-range.h                  sha1-lookup.c                 version.h
+diff-no-index.c               list-objects.c                sha1-lookup.h                 versioncmp.c
+diff.c                        list-objects.h                sha1_file.c                   walker.c
+diff.h                        ll-merge.c                    sha1_name.c                   walker.h
+diffcore-break.c              ll-merge.h                    shallow.c                     wildmatch.c
+diffcore-delta.c              lockfile.c                    shell.c                       wildmatch.h
+diffcore-order.c              lockfile.h                    shortlog.h                    wrap-for-bin.sh
+diffcore-pickaxe.c            log-tree.c                    show-index.c                  wrapper.c
+diffcore-rename.c             log-tree.h                    sideband.c                    write_or_die.c
+diffcore.h                    mailmap.c                     sideband.h                    ws.c
+dir.c                         mailmap.h                     sigchain.c                    wt-status.c
+dir.h                         match-trees.c                 sigchain.h                    wt-status.h
+editor.c                      merge-blobs.c                 split-index.c                 xdiff
+entry.c                       merge-blobs.h                 split-index.h                 xdiff-interface.c
+environment.c                 merge-recursive.c             strbuf.c                      xdiff-interface.h
+ewah                          merge-recursive.h             strbuf.h                      zlib.c
+exec_cmd.c                    merge.c                       streaming.c
+~/github/git (master)  > git log
+commit 5b1d901c0173b41010856e30776c92d02987ea25
+Author: Matthieu Moy <Matthieu.Moy@imag.fr>
+Date:   Thu Jun 18 10:46:04 2015 +0200
+
+    git-multimail: update to release 1.1.0
+    
+    The changes are described in CHANGES.
+    
+    Contributions-by: Matthieu Moy <Matthieu.Moy@imag.fr>
+    Contributions-by: Richard Hansen <rhansen@rhansen.org>
+    Contributions-by: Michael Haggerty <mhagger@alum.mit.edu>
+    Contributions-by: Elijah Newren <newren@gmail.com>
+    Contributions-by: Luke Mewburn <luke@mewburn.net>
+    Contributions-by: Dave Boutcher <daveboutcher@gmail.com>
+    Contributions-by: Azat Khuzhin <a3at.mail@gmail.com>
+    Contributions-by: Sebastian Schuberth <sschuberth@gmail.com>
+    Contributions-by: Mikko Johannes Koivunalho <mikko.koivunalho@iki.fi>
+    Contributions-by: Elijah Newren <newren@palantir.com>
+    Contributions-by: Benoît Ryder <benoit@ryder.fr>
+    Signed-off-by: Matthieu Moy <Matthieu.Moy@imag.fr>
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit 16da57c7c6c1fe92b32645202dd19657a89dd67d
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:39:31 2015 -0700
+
+    Eighth batch for 2.5
+    
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit 5c040f5af5898ce841cabdcda7bbdc38483123ef
+Merge: c3b1c1e f09bd21
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:39:01 2015 -0700
+
+    Sync with 2.4.4
+    
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit f09bd215cde5e30029fe08f309d0554eb9256778
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:38:01 2015 -0700
+
+    Git 2.4.4
+    
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit 37d6f933dff7d5c295870c85399f5fd22072643a
+~/github/git (master)  > ls
+COPYING                       exec_cmd.h                    mergesort.c                   streaming.h
+Documentation                 fast-import.c                 mergesort.h                   string-list.c
+GIT-VERSION-GEN               fetch-pack.c                  mergetools                    string-list.h
+INSTALL                       fetch-pack.h                  name-hash.c                   submodule.c
+LGPL-2.1                      fmt-merge-msg.h               notes-cache.c                 submodule.h
+Makefile                      fsck.c                        notes-cache.h                 symlinks.c
+README                        fsck.h                        notes-merge.c                 t
+RelNotes                      generate-cmdlist.perl         notes-merge.h                 tag.c
+abspath.c                     gettext.c                     notes-utils.c                 tag.h
+aclocal.m4                    gettext.h                     notes-utils.h                 tar.h
+advice.c                      git-add--interactive.perl     notes.c                       templates
+advice.h                      git-am.sh                     notes.h                       test-chmtime.c
+alias.c                       git-archimport.perl           object.c                      test-config.c
+alloc.c                       git-bisect.sh                 object.h                      test-ctype.c
+archive-tar.c                 git-compat-util.h             pack-bitmap-write.c           test-date.c
+archive-zip.c                 git-cvsexportcommit.perl      pack-bitmap.c                 test-delta.c
+archive.c                     git-cvsimport.perl            pack-bitmap.h                 test-dump-cache-tree.c
+archive.h                     git-cvsserver.perl            pack-check.c                  test-dump-split-index.c
+argv-array.c                  git-difftool--helper.sh       pack-objects.c                test-dump-untracked-cache.c
+argv-array.h                  git-difftool.perl             pack-objects.h                test-genrandom.c
+attr.c                        git-filter-branch.sh          pack-revindex.c               test-hashmap.c
+attr.h                        git-gui                       pack-revindex.h               test-index-version.c
+base85.c                      git-instaweb.sh               pack-write.c                  test-line-buffer.c
+bisect.c                      git-merge-octopus.sh          pack.h                        test-match-trees.c
+bisect.h                      git-merge-one-file.sh         pager.c                       test-mergesort.c
+blob.c                        git-merge-resolve.sh          parse-options-cb.c            test-mktemp.c
+blob.h                        git-mergetool--lib.sh         parse-options.c               test-parse-options.c
+block-sha1                    git-mergetool.sh              parse-options.h               test-path-utils.c
+branch.c                      git-p4.py                     patch-delta.c                 test-prio-queue.c
+branch.h                      git-parse-remote.sh           patch-ids.c                   test-read-cache.c
+builtin                       git-pull.sh                   patch-ids.h                   test-regex.c
+builtin.h                     git-quiltimport.sh            path.c                        test-revision-walking.c
+bulk-checkin.c                git-rebase--am.sh             pathspec.c                    test-run-command.c
+bulk-checkin.h                git-rebase--interactive.sh    pathspec.h                    test-scrap-cache-tree.c
+bundle.c                      git-rebase--merge.sh          perl                          test-sha1-array.c
+bundle.h                      git-rebase.sh                 pkt-line.c                    test-sha1.c
+cache-tree.c                  git-relink.perl               pkt-line.h                    test-sha1.sh
+cache-tree.h                  git-remote-testgit.sh         po                            test-sigchain.c
+cache.h                       git-request-pull.sh           ppc                           test-string-list.c
+check-builtins.sh             git-send-email.perl           preload-index.c               test-subprocess.c
+check-racy.c                  git-sh-i18n.sh                pretty.c                      test-svn-fe.c
+check_bindir                  git-sh-setup.sh               prio-queue.c                  test-urlmatch-normalization.c
+color.c                       git-stash.sh                  prio-queue.h                  test-wildmatch.c
+color.h                       git-submodule.sh              progress.c                    thread-utils.c
+column.c                      git-svn.perl                  progress.h                    thread-utils.h
+column.h                      git-web--browse.sh            prompt.c                      trace.c
+combine-diff.c                git.c                         prompt.h                      trace.h
+command-list.txt              git.rc                        quote.c                       trailer.c
+commit-slab.h                 git.spec.in                   quote.h                       trailer.h
+commit.c                      gitk-git                      reachable.c                   transport-helper.c
+commit.h                      gitweb                        reachable.h                   transport.c
+compat                        gpg-interface.c               read-cache.c                  transport.h
+config.c                      gpg-interface.h               reflog-walk.c                 tree-diff.c
+config.mak.in                 graph.c                       reflog-walk.h                 tree-walk.c
+config.mak.uname              graph.h                       refs.c                        tree-walk.h
+configure.ac                  grep.c                        refs.h                        tree.c
+connect.c                     grep.h                        remote-curl.c                 tree.h
+connect.h                     hashmap.c                     remote-testsvn.c              unicode_width.h
+connected.c                   hashmap.h                     remote.c                      unimplemented.sh
+connected.h                   help.c                        remote.h                      unix-socket.c
+contrib                       help.h                        replace_object.c              unix-socket.h
+convert.c                     hex.c                         rerere.c                      unpack-trees.c
+convert.h                     http-backend.c                rerere.h                      unpack-trees.h
+copy.c                        http-fetch.c                  resolve-undo.c                update_unicode.sh
+credential-cache--daemon.c    http-push.c                   resolve-undo.h                upload-pack.c
+credential-cache.c            http-walker.c                 revision.c                    url.c
+credential-store.c            http.c                        revision.h                    url.h
+credential.c                  http.h                        run-command.c                 urlmatch.c
+credential.h                  ident.c                       run-command.h                 urlmatch.h
+csum-file.c                   imap-send.c                   send-pack.c                   usage.c
+csum-file.h                   khash.h                       send-pack.h                   userdiff.c
+ctype.c                       kwset.c                       sequencer.c                   userdiff.h
+daemon.c                      kwset.h                       sequencer.h                   utf8.c
+date.c                        levenshtein.c                 server-info.c                 utf8.h
+decorate.c                    levenshtein.h                 setup.c                       varint.c
+decorate.h                    line-log.c                    sh-i18n--envsubst.c           varint.h
+delta.h                       line-log.h                    sha1-array.c                  vcs-svn
+diff-delta.c                  line-range.c                  sha1-array.h                  version.c
+diff-lib.c                    line-range.h                  sha1-lookup.c                 version.h
+diff-no-index.c               list-objects.c                sha1-lookup.h                 versioncmp.c
+diff.c                        list-objects.h                sha1_file.c                   walker.c
+diff.h                        ll-merge.c                    sha1_name.c                   walker.h
+diffcore-break.c              ll-merge.h                    shallow.c                     wildmatch.c
+diffcore-delta.c              lockfile.c                    shell.c                       wildmatch.h
+diffcore-order.c              lockfile.h                    shortlog.h                    wrap-for-bin.sh
+diffcore-pickaxe.c            log-tree.c                    show-index.c                  wrapper.c
+diffcore-rename.c             log-tree.h                    sideband.c                    write_or_die.c
+diffcore.h                    mailmap.c                     sideband.h                    ws.c
+dir.c                         mailmap.h                     sigchain.c                    wt-status.c
+dir.h                         match-trees.c                 sigchain.h                    wt-status.h
+editor.c                      merge-blobs.c                 split-index.c                 xdiff
+entry.c                       merge-blobs.h                 split-index.h                 xdiff-interface.c
+environment.c                 merge-recursive.c             strbuf.c                      xdiff-interface.h
+ewah                          merge-recursive.h             strbuf.h                      zlib.c
+exec_cmd.c                    merge.c                       streaming.c
+~/github/git (master)  > git log -- log-tree.h
+commit b94657683996402228abb1694a5db4792c424f9e
+Merge: b67588d f6c5a29
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Mon Oct 20 12:23:48 2014 -0700
+
+    Merge branch 'jn/parse-config-slot'
+    
+    Code cleanup.
+    
+    * jn/parse-config-slot:
+      color_parse: do not mention variable name in error message
+      pass config slots as pointers instead of offsets
+
+commit 8852117a603c5ed5131233a80453db37c0958871
+Author: Jonathan Nieder <jrnieder@gmail.com>
+Date:   Tue Oct 7 15:16:57 2014 -0400
+
+    pass config slots as pointers instead of offsets
+    
+    Many config-parsing helpers, like parse_branch_color_slot,
+    take the name of a config variable and an offset to the
+    "slot" name (e.g., "color.branch.plain" is passed along with
+    "13" to effectively pass "plain"). This is leftover from the
+    time that these functions would die() on error, and would
+    want the full variable name for error reporting.
+    
+    These days they do not use the full variable name at all.
+    Passing a single pointer to the slot name is more natural,
+    and lets us more easily adjust the callers to use skip_prefix
+    to avoid manually writing offset numbers.
+    
+    This is effectively a continuation of 9e1a5eb, which did the
+    same for parse_diff_color_slot. This patch covers all of the
+    remaining similar constructs.
+    
+    Signed-off-by: Jonathan Nieder <jrnieder@gmail.com>
+    Signed-off-by: Jeff King <peff@peff.net>
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit 9271095cc5571e306d709ebf8eb7f0a388254d9d
+Author: Harry Jeffery <harry@exec64.co.uk>
+Date:   Thu Sep 18 21:53:53 2014 +0100
+
+    pretty: add %D format specifier
+    
+
+    pass config slots as pointers instead of offsets
+    
+    Many config-parsing helpers, like parse_branch_color_slot,
+    take the name of a config variable and an offset to the
+    "slot" name (e.g., "color.branch.plain" is passed along with
+    "13" to effectively pass "plain"). This is leftover from the
+    time that these functions would die() on error, and would
+    want the full variable name for error reporting.
+    
+    These days they do not use the full variable name at all.
+    Passing a single pointer to the slot name is more natural,
+    and lets us more easily adjust the callers to use skip_prefix
+    to avoid manually writing offset numbers.
+    
+    This is effectively a continuation of 9e1a5eb, which did the
+    same for parse_diff_color_slot. This patch covers all of the
+    remaining similar constructs.
+    
+    Signed-off-by: Jonathan Nieder <jrnieder@gmail.com>
+    Signed-off-by: Jeff King <peff@peff.net>
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit 9271095cc5571e306d709ebf8eb7f0a388254d9d
+Author: Harry Jeffery <harry@exec64.co.uk>
+Date:   Thu Sep 18 21:53:53 2014 +0100
+
+    pretty: add %D format specifier
+    
+    Add a new format specifier, '%D' that is identical in behaviour to '%d',
+    except that it does not include the ' (' prefix or ')' suffix provided
+    by '%d'.
+    
+~/github/git (master)  > 
+~/github/git (master)  > git log -2
+commit 5b1d901c0173b41010856e30776c92d02987ea25
+Author: Matthieu Moy <Matthieu.Moy@imag.fr>
+Date:   Thu Jun 18 10:46:04 2015 +0200
+
+    git-multimail: update to release 1.1.0
+    
+    The changes are described in CHANGES.
+    
+    Contributions-by: Matthieu Moy <Matthieu.Moy@imag.fr>
+    Contributions-by: Richard Hansen <rhansen@rhansen.org>
+    Contributions-by: Michael Haggerty <mhagger@alum.mit.edu>
+    Contributions-by: Elijah Newren <newren@gmail.com>
+    Contributions-by: Luke Mewburn <luke@mewburn.net>
+    Contributions-by: Dave Boutcher <daveboutcher@gmail.com>
+    Contributions-by: Azat Khuzhin <a3at.mail@gmail.com>
+    Contributions-by: Sebastian Schuberth <sschuberth@gmail.com>
+    Contributions-by: Mikko Johannes Koivunalho <mikko.koivunalho@iki.fi>
+    Contributions-by: Elijah Newren <newren@palantir.com>
+    Contributions-by: Benoît Ryder <benoit@ryder.fr>
+    Signed-off-by: Matthieu Moy <Matthieu.Moy@imag.fr>
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit 16da57c7c6c1fe92b32645202dd19657a89dd67d
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:39:31 2015 -0700
+
+    Eighth batch for 2.5
+    
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+~/github/git (master)  > git log -3
+commit 5b1d901c0173b41010856e30776c92d02987ea25
+Author: Matthieu Moy <Matthieu.Moy@imag.fr>
+Date:   Thu Jun 18 10:46:04 2015 +0200
+
+    git-multimail: update to release 1.1.0
+    
+    The changes are described in CHANGES.
+    
+    Contributions-by: Matthieu Moy <Matthieu.Moy@imag.fr>
+    Contributions-by: Richard Hansen <rhansen@rhansen.org>
+    Contributions-by: Michael Haggerty <mhagger@alum.mit.edu>
+    Contributions-by: Elijah Newren <newren@gmail.com>
+    Contributions-by: Luke Mewburn <luke@mewburn.net>
+    Contributions-by: Dave Boutcher <daveboutcher@gmail.com>
+    Contributions-by: Azat Khuzhin <a3at.mail@gmail.com>
+    Contributions-by: Sebastian Schuberth <sschuberth@gmail.com>
+    Contributions-by: Mikko Johannes Koivunalho <mikko.koivunalho@iki.fi>
+    Contributions-by: Elijah Newren <newren@palantir.com>
+    Contributions-by: Benoît Ryder <benoit@ryder.fr>
+    Signed-off-by: Matthieu Moy <Matthieu.Moy@imag.fr>
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit 16da57c7c6c1fe92b32645202dd19657a89dd67d
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:39:31 2015 -0700
+
+    Eighth batch for 2.5
+    
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit 5c040f5af5898ce841cabdcda7bbdc38483123ef
+Merge: c3b1c1e f09bd21
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:39:01 2015 -0700
+
+    Sync with 2.4.4
+    
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+~/github/git (master)  > 
+~/github/git (master)  > git log --since=2.weeks.ago
+commit 5b1d901c0173b41010856e30776c92d02987ea25
+commit 5b1d901c0173b41010856e30776c92d02987ea25
+Author: Matthieu Moy <Matthieu.Moy@imag.fr>
+Date:   Thu Jun 18 10:46:04 2015 +0200
+
+    git-multimail: update to release 1.1.0
+    
+    The changes are described in CHANGES.
+    
+    Contributions-by: Matthieu Moy <Matthieu.Moy@imag.fr>
+    Contributions-by: Richard Hansen <rhansen@rhansen.org>
+    Contributions-by: Michael Haggerty <mhagger@alum.mit.edu>
+    Contributions-by: Elijah Newren <newren@gmail.com>
+    Contributions-by: Luke Mewburn <luke@mewburn.net>
+    Contributions-by: Dave Boutcher <daveboutcher@gmail.com>
+    Contributions-by: Azat Khuzhin <a3at.mail@gmail.com>
+    Contributions-by: Sebastian Schuberth <sschuberth@gmail.com>
+    Contributions-by: Mikko Johannes Koivunalho <mikko.koivunalho@iki.fi>
+    Contributions-by: Elijah Newren <newren@palantir.com>
+    Contributions-by: Benoît Ryder <benoit@ryder.fr>
+    Signed-off-by: Matthieu Moy <Matthieu.Moy@imag.fr>
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit 16da57c7c6c1fe92b32645202dd19657a89dd67d
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:39:31 2015 -0700
+
+    Eighth batch for 2.5
+    
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit 5c040f5af5898ce841cabdcda7bbdc38483123ef
+Merge: c3b1c1e f09bd21
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:39:01 2015 -0700
+
+    Sync with 2.4.4
+    
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit f09bd215cde5e30029fe08f309d0554eb9256778
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:38:01 2015 -0700
+
+    Git 2.4.4
+    
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit 37d6f933dff7d5c295870c85399f5fd22072643a
+Merge: 0d9388d 14f8b9b
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:33:52 2015 -0700
+
+    Merge branch 'jk/clone-dissociate' into maint
+    
+    Code clean-up.
+    
+    * jk/clone-dissociate:
+      clone: reorder --dissociate and --reference options
+      clone: use OPT_STRING_LIST for --reference
+
+commit 0d9388dc30717a5780fa84befa03bef56884805a
+Merge: 6de4c80 ec48a76
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:33:52 2015 -0700
+
+    Merge branch 'sb/submodule-doc-intro' into maint
+    
+    * sb/submodule-doc-intro:
+      submodule doc: reorder introductory paragraphs
+
+commit 6de4c808391ffff01185c093d6c46f2861f48862
+Merge: 6588f82 e6a268c
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:33:51 2015 -0700
+
+    Merge branch 'sb/glossary-submodule' into maint
+    
+    * sb/glossary-submodule:
+      glossary: add "remote", "submodule", "superproject"
+
+commit 6588f82ff6aa8ff7857304c10b18ab062e67bb52
+Merge: afd647c ce41720
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:33:50 2015 -0700
+
+    Merge branch 'ah/usage-strings' into maint
+    
+    A few usage string updates.
+    
+    * ah/usage-strings:
+      blame, log: format usage strings similarly to those in documentation
+
+commit afd647c55f19b34c1c605f099720dcec49c4e24a
+Merge: dfb6759 5c2a581
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:33:49 2015 -0700
+
+    Merge branch 'mc/commit-doc-grammofix' into maint
+    
+    Doc grammar fix.
+    
+    * mc/commit-doc-grammofix:
+      Documentation/git-commit: grammofix
+
+commit dfb67594e964e63f20546361597c06432c73779d
+Merge: 2cd8ebd 22570b6
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:33:47 2015 -0700
+
+    Merge branch 'rs/janitorial' into maint
+    
+    Code clean-up.
+    
+    * rs/janitorial:
+      dir: remove unused variable sb
+      clean: remove unused variable buf
+      use file_exists() to check if a file exists in the worktree
+
+commit 2cd8ebdd3d28359b7886d994e84a8725394935e7
+Merge: 6b2c0ea d201a1e
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:33:47 2015 -0700
+
+    Merge branch 'sb/test-bitmap-free-at-end' into maint
+    
+    An earlier leakfix to bitmap testing code was incomplete.
+~/github/git (master)  > git log --oneline --since=2.weeks.ago
+5b1d901 git-multimail: update to release 1.1.0
+16da57c Eighth batch for 2.5
+5c040f5 Sync with 2.4.4
+f09bd21 Git 2.4.4
+37d6f93 Merge branch 'jk/clone-dissociate' into maint
+0d9388d Merge branch 'sb/submodule-doc-intro' into maint
+6de4c80 Merge branch 'sb/glossary-submodule' into maint
+5b1d901 git-multimail: update to release 1.1.0
+16da57c Eighth batch for 2.5
+5c040f5 Sync with 2.4.4
+f09bd21 Git 2.4.4
+37d6f93 Merge branch 'jk/clone-dissociate' into maint
+0d9388d Merge branch 'sb/submodule-doc-intro' into maint
+6de4c80 Merge branch 'sb/glossary-submodule' into maint
+6588f82 Merge branch 'ah/usage-strings' into maint
+afd647c Merge branch 'mc/commit-doc-grammofix' into maint
+dfb6759 Merge branch 'rs/janitorial' into maint
+2cd8ebd Merge branch 'sb/test-bitmap-free-at-end' into maint
+6b2c0ea Merge branch 'dt/clean-pathspec-filter-then-lstat' into maint
+b76b4cd Merge branch 'jk/http-backend-deadlock' into maint
+070d276 Merge branch 'jh/filter-empty-contents' into maint
+659d4c8 Merge branch 'jk/stash-options' into maint
+4be33f7 Merge branch 'mm/log-format-raw-doc' into maint
+335f1a7 Merge branch 'ep/do-not-feed-a-pointer-to-array-size' into maint
+c3b1c1e Merge branch 'nd/slim-index-pack-memory-usage'
+486b51b Merge branch 'sb/pack-protocol-mention-smart-http'
+0d5d7db Merge branch 'jk/make-fix-dependencies'
+103b6f9 Merge branch 'jk/die-on-bogus-worktree-late'
+c7ca442 Merge branch 'sg/merge-summary-config'
+412e63f Merge branch 'ah/send-email-sendmail-alias'
+2c185f0 Merge tag 'l10n-2.4-maint-de-updates' of git://github.com/git-l10n/git-po into maint
+a9845c5 l10n: de.po: translation fix for fall-back to 3way merge
+47a1657 l10n: de.po: punctuation fixes
+872b1f2 l10n: de.po: grammar fix
+39f9819 l10n: de.po: change error message from "sagen" to "Meinten Sie"
+a5fe668 Second half of seventh batch
+e356158 Merge branch 'tb/complete-sequencing'
+43262d8 Merge branch 'jk/squelch-missing-link-warning-for-unreachable'
+0e04b24 Merge branch 'pt/pull-tests'
+c491e9e Merge branch 'sb/glossary-submodule'
+~/github/git (master)  > 
+~/github/git (master)  > git log --after=2.weeks.ago
+commit 5b1d901c0173b41010856e30776c92d02987ea25
+Author: Matthieu Moy <Matthieu.Moy@imag.fr>
+Date:   Thu Jun 18 10:46:04 2015 +0200
+
+    git-multimail: update to release 1.1.0
+    
+    The changes are described in CHANGES.
+    
+    Contributions-by: Matthieu Moy <Matthieu.Moy@imag.fr>
+    Contributions-by: Richard Hansen <rhansen@rhansen.org>
+    Contributions-by: Michael Haggerty <mhagger@alum.mit.edu>
+    Contributions-by: Elijah Newren <newren@gmail.com>
+    Contributions-by: Luke Mewburn <luke@mewburn.net>
+    Contributions-by: Dave Boutcher <daveboutcher@gmail.com>
+    Contributions-by: Azat Khuzhin <a3at.mail@gmail.com>
+    Contributions-by: Sebastian Schuberth <sschuberth@gmail.com>
+    Contributions-by: Mikko Johannes Koivunalho <mikko.koivunalho@iki.fi>
+    Contributions-by: Elijah Newren <newren@palantir.com>
+    Contributions-by: Benoît Ryder <benoit@ryder.fr>
+    Signed-off-by: Matthieu Moy <Matthieu.Moy@imag.fr>
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit 16da57c7c6c1fe92b32645202dd19657a89dd67d
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:39:31 2015 -0700
+
+    Eighth batch for 2.5
+    
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit 5c040f5af5898ce841cabdcda7bbdc38483123ef
+Merge: c3b1c1e f09bd21
+Author: Junio C Hamano <gitster@pobox.com>
+~/github/git (master)  > 
+~/github/git (master)  > git log --oneline --after=2.weeks.ago
+5b1d901 git-multimail: update to release 1.1.0
+16da57c Eighth batch for 2.5
+5c040f5 Sync with 2.4.4
+f09bd21 Git 2.4.4
+37d6f93 Merge branch 'jk/clone-dissociate' into maint
+0d9388d Merge branch 'sb/submodule-doc-intro' into maint
+6de4c80 Merge branch 'sb/glossary-submodule' into maint
+6588f82 Merge branch 'ah/usage-strings' into maint
+afd647c Merge branch 'mc/commit-doc-grammofix' into maint
+dfb6759 Merge branch 'rs/janitorial' into maint
+2cd8ebd Merge branch 'sb/test-bitmap-free-at-end' into maint
+6b2c0ea Merge branch 'dt/clean-pathspec-filter-then-lstat' into maint
+b76b4cd Merge branch 'jk/http-backend-deadlock' into maint
+070d276 Merge branch 'jh/filter-empty-contents' into maint
+659d4c8 Merge branch 'jk/stash-options' into maint
+4be33f7 Merge branch 'mm/log-format-raw-doc' into maint
+335f1a7 Merge branch 'ep/do-not-feed-a-pointer-to-array-size' into maint
+c3b1c1e Merge branch 'nd/slim-index-pack-memory-usage'
+486b51b Merge branch 'sb/pack-protocol-mention-smart-http'
+0d5d7db Merge branch 'jk/make-fix-dependencies'
+103b6f9 Merge branch 'jk/die-on-bogus-worktree-late'
+c7ca442 Merge branch 'sg/merge-summary-config'
+412e63f Merge branch 'ah/send-email-sendmail-alias'
+2c185f0 Merge tag 'l10n-2.4-maint-de-updates' of git://github.com/git-l10n/git-po into maint
+a9845c5 l10n: de.po: translation fix for fall-back to 3way merge
+47a1657 l10n: de.po: punctuation fixes
+872b1f2 l10n: de.po: grammar fix
+39f9819 l10n: de.po: change error message from "sagen" to "Meinten Sie"
+a5fe668 Second half of seventh batch
+e356158 Merge branch 'tb/complete-sequencing'
+43262d8 Merge branch 'jk/squelch-missing-link-warning-for-unreachable'
+0e04b24 Merge branch 'pt/pull-tests'
+c491e9e Merge branch 'sb/glossary-submodule'
+7df5c97 Merge branch 'sb/submodule-doc-intro'
+dee4792 Merge branch 'jk/diagnose-config-mmap-failure'
+8f436d1 Merge branch 'mt/p4-depotFile-at-version'
+829f03e Merge branch 'mh/verify-lock-error-report'
+db65170 Merge branch 'jk/color-diff-plain-is-context'
+82b416e Merge branch 'jk/clone-dissociate'
+709cd91 Merge branch 'jc/diff-ws-error-highlight'
+~/github/git (master)  > git log --oneline --since=2.weeks.ago --until=1.week.ago
+2c185f0 Merge tag 'l10n-2.4-maint-de-updates' of git://github.com/git-l10n/git-po into maint
+a9845c5 l10n: de.po: translation fix for fall-back to 3way merge
+47a1657 l10n: de.po: punctuation fixes
+872b1f2 l10n: de.po: grammar fix
+39f9819 l10n: de.po: change error message from "sagen" to "Meinten Sie"
+a5fe668 Second half of seventh batch
+e356158 Merge branch 'tb/complete-sequencing'
+43262d8 Merge branch 'jk/squelch-missing-link-warning-for-unreachable'
+0e04b24 Merge branch 'pt/pull-tests'
+c491e9e Merge branch 'sb/glossary-submodule'
+7df5c97 Merge branch 'sb/submodule-doc-intro'
+dee4792 Merge branch 'jk/diagnose-config-mmap-failure'
+8f436d1 Merge branch 'mt/p4-depotFile-at-version'
+829f03e Merge branch 'mh/verify-lock-error-report'
+db65170 Merge branch 'jk/color-diff-plain-is-context'
+82b416e Merge branch 'jk/clone-dissociate'
+709cd91 Merge branch 'jc/diff-ws-error-highlight'
+~/github/git (master)  > 
+~/github/git (master)  > git log
+commit 5b1d901c0173b41010856e30776c92d02987ea25
+Author: Matthieu Moy <Matthieu.Moy@imag.fr>
+Date:   Thu Jun 18 10:46:04 2015 +0200
+
+    git-multimail: update to release 1.1.0
+    
+    The changes are described in CHANGES.
+    
+    Contributions-by: Matthieu Moy <Matthieu.Moy@imag.fr>
+    Contributions-by: Richard Hansen <rhansen@rhansen.org>
+    Contributions-by: Michael Haggerty <mhagger@alum.mit.edu>
+    Contributions-by: Elijah Newren <newren@gmail.com>
+    Contributions-by: Luke Mewburn <luke@mewburn.net>
+    Contributions-by: Dave Boutcher <daveboutcher@gmail.com>
+    Contributions-by: Azat Khuzhin <a3at.mail@gmail.com>
+    Contributions-by: Sebastian Schuberth <sschuberth@gmail.com>
+    Contributions-by: Mikko Johannes Koivunalho <mikko.koivunalho@iki.fi>
+    Contributions-by: Elijah Newren <newren@palantir.com>
+    Contributions-by: Benoît Ryder <benoit@ryder.fr>
+    Signed-off-by: Matthieu Moy <Matthieu.Moy@imag.fr>
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit 16da57c7c6c1fe92b32645202dd19657a89dd67d
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:39:31 2015 -0700
+
+    Eighth batch for 2.5
+    
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit 5c040f5af5898ce841cabdcda7bbdc38483123ef
+Merge: c3b1c1e f09bd21
+Author: Junio C Hamano <gitster@pobox.com>
+~/github/git (master)  > git log --author="Matthieu Moy"
+commit 5b1d901c0173b41010856e30776c92d02987ea25
+Author: Matthieu Moy <Matthieu.Moy@imag.fr>
+Date:   Thu Jun 18 10:46:04 2015 +0200
+
+    git-multimail: update to release 1.1.0
+    
+    The changes are described in CHANGES.
+    
+    Contributions-by: Matthieu Moy <Matthieu.Moy@imag.fr>
+    Contributions-by: Richard Hansen <rhansen@rhansen.org>
+    Contributions-by: Michael Haggerty <mhagger@alum.mit.edu>
+    Contributions-by: Elijah Newren <newren@gmail.com>
+    Contributions-by: Luke Mewburn <luke@mewburn.net>
+    Contributions-by: Dave Boutcher <daveboutcher@gmail.com>
+    Contributions-by: Azat Khuzhin <a3at.mail@gmail.com>
+    Contributions-by: Sebastian Schuberth <sschuberth@gmail.com>
+    Contributions-by: Mikko Johannes Koivunalho <mikko.koivunalho@iki.fi>
+    Contributions-by: Elijah Newren <newren@palantir.com>
+    Contributions-by: Benoît Ryder <benoit@ryder.fr>
+    Signed-off-by: Matthieu Moy <Matthieu.Moy@imag.fr>
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit b12d3e904dc6deba7885d8528538de13e28128dd
+Author: Matthieu Moy <Matthieu.Moy@imag.fr>
+Date:   Fri May 22 13:15:49 2015 +0000
+
+    rebase -i: fix post-rewrite hook with failed exec command
+    
+    Usually, when 'git rebase' stops before completing the rebase, it is to
+    give the user an opportunity to edit a commit (e.g. with the 'edit'
+    command). In such cases, 'git rebase' leaves the sha1 of the commit being
+    rewritten in "$state_dir"/stopped-sha, and subsequent 'git rebase
+    --continue' will call the post-rewrite hook with this sha1 as <old-sha1>
+    argument to the post-rewrite hook.
+    
+    The case of 'git rebase' stopping because of a failed 'exec' command is
+    different: it gives the opportunity to the user to examine or fix the
+    failure, but does not stop saying "here's a commit to edit, use
+    --continue when you're done". So, there's no reason to call the
+    post-rewrite hook for 'exec' commands. If the user did rewrite the
+    commit, it would be with 'git commit --amend' which already called the
+    post-rewrite hook.
+    
+    Fix the behavior to leave no stopped-sha file in case of failed exec
+    command, and teach 'git rebase --continue' to skip record_in_rewritten if
+    no stopped-sha file is found.
+    
+    Signed-off-by: Matthieu Moy <Matthieu.Moy@imag.fr>
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit 1d968ca69809ffb7b9105a4785aa0bc3b37b1434
+Author: Matthieu Moy <Matthieu.Moy@imag.fr>
+Date:   Fri May 22 13:15:50 2015 +0000
+
+    rebase -i: demonstrate incorrect behavior of post-rewrite
+    
+    The 'exec' command is sending the current commit to stopped-sha, which is
+    supposed to contain the original commit (before rebase). As a result, if
+    an 'exec' command fails, the next 'git rebase --continue' will send the
+    current commit as <old-sha1> to the post-rewrite hook.
+    
+    The test currently fails with :
+    
+      --- expected.data       2015-05-21 17:55:29.000000000 +0000
+      +++ [...]post-rewrite.data      2015-05-21 17:55:29.000000000 +0000
+      @@ -1,2 +1,3 @@
+       2362ae8e1b1b865e6161e6f0e165ffb974abf018 488028e9fac0b598b70cbeb594258a917e3f6fab
+      +488028e9fac0b598b70cbeb594258a917e3f6fab 488028e9fac0b598b70cbeb594258a917e3f6fab
+       babc8a4c7470895886fc129f1a015c486d05a351 8edffcc4e69a4e696a1d4bab047df450caf99507
+    
+~/github/git (master)  > git log --committer="Matthieu Moy"
+~/github/git (master)  > git log --committer="Junio"
+commit 5b1d901c0173b41010856e30776c92d02987ea25
+Author: Matthieu Moy <Matthieu.Moy@imag.fr>
+Date:   Thu Jun 18 10:46:04 2015 +0200
+
+    git-multimail: update to release 1.1.0
+    
+    The changes are described in CHANGES.
+    
+    Contributions-by: Matthieu Moy <Matthieu.Moy@imag.fr>
+    Contributions-by: Richard Hansen <rhansen@rhansen.org>
+    Contributions-by: Michael Haggerty <mhagger@alum.mit.edu>
+    Contributions-by: Elijah Newren <newren@gmail.com>
+    Contributions-by: Luke Mewburn <luke@mewburn.net>
+    Contributions-by: Dave Boutcher <daveboutcher@gmail.com>
+    Contributions-by: Azat Khuzhin <a3at.mail@gmail.com>
+    Contributions-by: Sebastian Schuberth <sschuberth@gmail.com>
+    Contributions-by: Mikko Johannes Koivunalho <mikko.koivunalho@iki.fi>
+    Contributions-by: Elijah Newren <newren@palantir.com>
+    Contributions-by: Benoît Ryder <benoit@ryder.fr>
+    Signed-off-by: Matthieu Moy <Matthieu.Moy@imag.fr>
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit 16da57c7c6c1fe92b32645202dd19657a89dd67d
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:39:31 2015 -0700
+
+    Eighth batch for 2.5
+    
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit 5c040f5af5898ce841cabdcda7bbdc38483123ef
+Merge: c3b1c1e f09bd21
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:39:01 2015 -0700
+
+    Sync with 2.4.4
+    
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit f09bd215cde5e30029fe08f309d0554eb9256778
+Author: Junio C Hamano <gitster@pobox.com>
+~/github/git (master)  > 
+~/github/git (master)  > ls
+COPYING                       exec_cmd.h                    mergesort.c                   streaming.h
+Documentation                 fast-import.c                 mergesort.h                   string-list.c
+GIT-VERSION-GEN               fetch-pack.c                  mergetools                    string-list.h
+INSTALL                       fetch-pack.h                  name-hash.c                   submodule.c
+LGPL-2.1                      fmt-merge-msg.h               notes-cache.c                 submodule.h
+Makefile                      fsck.c                        notes-cache.h                 symlinks.c
+README                        fsck.h                        notes-merge.c                 t
+RelNotes                      generate-cmdlist.perl         notes-merge.h                 tag.c
+abspath.c                     gettext.c                     notes-utils.c                 tag.h
+aclocal.m4                    gettext.h                     notes-utils.h                 tar.h
+advice.c                      git-add--interactive.perl     notes.c                       templates
+advice.h                      git-am.sh                     notes.h                       test-chmtime.c
+alias.c                       git-archimport.perl           object.c                      test-config.c
+alloc.c                       git-bisect.sh                 object.h                      test-ctype.c
+archive-tar.c                 git-compat-util.h             pack-bitmap-write.c           test-date.c
+archive-zip.c                 git-cvsexportcommit.perl      pack-bitmap.c                 test-delta.c
+archive.c                     git-cvsimport.perl            pack-bitmap.h                 test-dump-cache-tree.c
+archive.h                     git-cvsserver.perl            pack-check.c                  test-dump-split-index.c
+argv-array.c                  git-difftool--helper.sh       pack-objects.c                test-dump-untracked-cache.c
+argv-array.h                  git-difftool.perl             pack-objects.h                test-genrandom.c
+attr.c                        git-filter-branch.sh          pack-revindex.c               test-hashmap.c
+attr.h                        git-gui                       pack-revindex.h               test-index-version.c
+base85.c                      git-instaweb.sh               pack-write.c                  test-line-buffer.c
+bisect.c                      git-merge-octopus.sh          pack.h                        test-match-trees.c
+bisect.h                      git-merge-one-file.sh         pager.c                       test-mergesort.c
+blob.c                        git-merge-resolve.sh          parse-options-cb.c            test-mktemp.c
+blob.h                        git-mergetool--lib.sh         parse-options.c               test-parse-options.c
+block-sha1                    git-mergetool.sh              parse-options.h               test-path-utils.c
+branch.c                      git-p4.py                     patch-delta.c                 test-prio-queue.c
+branch.h                      git-parse-remote.sh           patch-ids.c                   test-read-cache.c
+builtin                       git-pull.sh                   patch-ids.h                   test-regex.c
+builtin.h                     git-quiltimport.sh            path.c                        test-revision-walking.c
+bulk-checkin.c                git-rebase--am.sh             pathspec.c                    test-run-command.c
+bulk-checkin.h                git-rebase--interactive.sh    pathspec.h                    test-scrap-cache-tree.c
+bundle.c                      git-rebase--merge.sh          perl                          test-sha1-array.c
+bundle.h                      git-rebase.sh                 pkt-line.c                    test-sha1.c
+cache-tree.c                  git-relink.perl               pkt-line.h                    test-sha1.sh
+cache-tree.h                  git-remote-testgit.sh         po                            test-sigchain.c
+cache.h                       git-request-pull.sh           ppc                           test-string-list.c
+check-builtins.sh             git-send-email.perl           preload-index.c               test-subprocess.c
+check-racy.c                  git-sh-i18n.sh                pretty.c                      test-svn-fe.c
+check_bindir                  git-sh-setup.sh               prio-queue.c                  test-urlmatch-normalization.c
+color.c                       git-stash.sh                  prio-queue.h                  test-wildmatch.c
+color.h                       git-submodule.sh              progress.c                    thread-utils.c
+column.c                      git-svn.perl                  progress.h                    thread-utils.h
+column.h                      git-web--browse.sh            prompt.c                      trace.c
+combine-diff.c                git.c                         prompt.h                      trace.h
+command-list.txt              git.rc                        quote.c                       trailer.c
+commit-slab.h                 git.spec.in                   quote.h                       trailer.h
+commit.c                      gitk-git                      reachable.c                   transport-helper.c
+commit.h                      gitweb                        reachable.h                   transport.c
+compat                        gpg-interface.c               read-cache.c                  transport.h
+config.c                      gpg-interface.h               reflog-walk.c                 tree-diff.c
+config.mak.in                 graph.c                       reflog-walk.h                 tree-walk.c
+config.mak.uname              graph.h                       refs.c                        tree-walk.h
+configure.ac                  grep.c                        refs.h                        tree.c
+connect.c                     grep.h                        remote-curl.c                 tree.h
+connect.h                     hashmap.c                     remote-testsvn.c              unicode_width.h
+connected.c                   hashmap.h                     remote.c                      unimplemented.sh
+connected.h                   help.c                        remote.h                      unix-socket.c
+contrib                       help.h                        replace_object.c              unix-socket.h
+convert.c                     hex.c                         rerere.c                      unpack-trees.c
+convert.h                     http-backend.c                rerere.h                      unpack-trees.h
+copy.c                        http-fetch.c                  resolve-undo.c                update_unicode.sh
+credential-cache--daemon.c    http-push.c                   resolve-undo.h                upload-pack.c
+credential-cache.c            http-walker.c                 revision.c                    url.c
+credential-store.c            http.c                        revision.h                    url.h
+credential.c                  http.h                        run-command.c                 urlmatch.c
+credential.h                  ident.c                       run-command.h                 urlmatch.h
+csum-file.c                   imap-send.c                   send-pack.c                   usage.c
+csum-file.h                   khash.h                       send-pack.h                   userdiff.c
+ctype.c                       kwset.c                       sequencer.c                   userdiff.h
+daemon.c                      kwset.h                       sequencer.h                   utf8.c
+date.c                        levenshtein.c                 server-info.c                 utf8.h
+decorate.c                    levenshtein.h                 setup.c                       varint.c
+decorate.h                    line-log.c                    sh-i18n--envsubst.c           varint.h
+delta.h                       line-log.h                    sha1-array.c                  vcs-svn
+diff-delta.c                  line-range.c                  sha1-array.h                  version.c
+diff-lib.c                    line-range.h                  sha1-lookup.c                 version.h
+diff-no-index.c               list-objects.c                sha1-lookup.h                 versioncmp.c
+diff.c                        list-objects.h                sha1_file.c                   walker.c
+diff.h                        ll-merge.c                    sha1_name.c                   walker.h
+diffcore-break.c              ll-merge.h                    shallow.c                     wildmatch.c
+diffcore-delta.c              lockfile.c                    shell.c                       wildmatch.h
+diffcore-order.c              lockfile.h                    shortlog.h                    wrap-for-bin.sh
+diffcore-pickaxe.c            log-tree.c                    show-index.c                  wrapper.c
+diffcore-rename.c             log-tree.h                    sideband.c                    write_or_die.c
+diffcore.h                    mailmap.c                     sideband.h                    ws.c
+dir.c                         mailmap.h                     sigchain.c                    wt-status.c
+dir.h                         match-trees.c                 sigchain.h                    wt-status.h
+editor.c                      merge-blobs.c                 split-index.c                 xdiff
+entry.c                       merge-blobs.h                 split-index.h                 xdiff-interface.c
+environment.c                 merge-recursive.c             strbuf.c                      xdiff-interface.h
+ewah                          merge-recursive.h             strbuf.h                      zlib.c
+exec_cmd.c                    merge.c                       streaming.c
+~/github/git (master)  > vi log-tree.h
+~/github/git (master)  > git log -S "show_decorations"
+commit 81b50f3ce40bfdd66e5d967bf82be001039a9a98
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Mon Feb 22 08:42:18 2010 -0800
+
+    Move 'builtin-*' into a 'builtin/' subdirectory
+    
+    This shrinks the top-level directory a bit, and makes it much more
+    pleasant to use auto-completion on the thing. Instead of
+    
+        [torvalds@nehalem git]$ em buil<tab>
+        Display all 180 possibilities? (y or n)
+        [torvalds@nehalem git]$ em builtin-sh
+        builtin-shortlog.c     builtin-show-branch.c  builtin-show-ref.c
+        builtin-shortlog.o     builtin-show-branch.o  builtin-show-ref.o
+        [torvalds@nehalem git]$ em builtin-shor<tab>
+        builtin-shortlog.c  builtin-shortlog.o
+        [torvalds@nehalem git]$ em builtin-shortlog.c
+    
+    you get
+    
+        [torvalds@nehalem git]$ em buil<tab>            [type]
+        builtin/   builtin.h
+        [torvalds@nehalem git]$ em builtin              [auto-completes to]
+        [torvalds@nehalem git]$ em builtin/sh<tab>      [type]
+        shortlog.c     shortlog.o     show-branch.c  show-branch.o  show-ref.c     show-ref.o
+        [torvalds@nehalem git]$ em builtin/sho          [auto-completes to]
+        [torvalds@nehalem git]$ em builtin/shor<tab>    [type]
+        shortlog.c  shortlog.o
+        [torvalds@nehalem git]$ em builtin/shortlog.c
+    
+    which doesn't seem all that different, but not having that annoying
+    break in "Display all 180 possibilities?" is quite a relief.
+    
+    NOTE! If you do this in a clean tree (no object files etc), or using an
+    editor that has auto-completion rules that ignores '*.o' files, you
+    won't see that annoying 'Display all 180 possibilities?' message - it
+    will just show the choices instead.  I think bash has some cut-off
+    around 100 choices or something.
+    
+    So the reason I see this is that I'm using an odd editory, and thus
+    don't have the rules to cut down on auto-completion.  But you can
+    simulate that by using 'ls' instead, or something similar.
+    
+    Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>
+~/github/git (master)  > git log --grep="show_decorations"
+commit e52e6f79ccc372825313890b96007985b8aa6e9c
+Merge: 7093d2c 1640632
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Apr 23 11:22:48 2013 -0700
+
+    Merge branch 'nd/pretty-formats'
+    
+    pretty-printing body of the commit that is stored in non UTF-8
+    encoding did not work well.  The early part of this series fixes
+    it.  And then it adds %C(auto) specifier that turns the coloring on
+    when we are emitting to the terminal, and adds column-aligning
+    format directives.
+    
+    * nd/pretty-formats:
+      pretty: support %>> that steal trailing spaces
+      pretty: support truncating in %>, %< and %><
+      pretty: support padding placeholders, %< %> and %><
+      pretty: add %C(auto) for auto-coloring
+      pretty: split color parsing into a separate function
+      pretty: two phase conversion for non utf-8 commits
+      utf8.c: add reencode_string_len() that can handle NULs in string
+      utf8.c: add utf8_strnwidth() with the ability to skip ansi sequences
+      utf8.c: move display_mode_esc_sequence_len() for use by other functions
+      pretty: share code between format_decoration and show_decorations
+      pretty-formats.txt: wrap long lines
+      pretty: get the correct encoding for --pretty:format=%e
+      pretty: save commit encoding from logmsg_reencode if the caller needs it
+
+commit 9d3f002f21f78576f3c31ae94ce78de54e305c95
+Author: Nguyễn Thái Ngọc Duy <pclouds@gmail.com>
+Date:   Fri Apr 19 09:08:43 2013 +1000
+
+    pretty: share code between format_decoration and show_decorations
+    
+    This also adds color support to format_decorations()
+~/github/git (master)  > 
+~/github/git (master)  > ls
+COPYING                       exec_cmd.h                    mergesort.c                   streaming.h
+Documentation                 fast-import.c                 mergesort.h                   string-list.c
+GIT-VERSION-GEN               fetch-pack.c                  mergetools                    string-list.h
+INSTALL                       fetch-pack.h                  name-hash.c                   submodule.c
+LGPL-2.1                      fmt-merge-msg.h               notes-cache.c                 submodule.h
+Makefile                      fsck.c                        notes-cache.h                 symlinks.c
+README                        fsck.h                        notes-merge.c                 t
+RelNotes                      generate-cmdlist.perl         notes-merge.h                 tag.c
+abspath.c                     gettext.c                     notes-utils.c                 tag.h
+aclocal.m4                    gettext.h                     notes-utils.h                 tar.h
+advice.c                      git-add--interactive.perl     notes.c                       templates
+advice.h                      git-am.sh                     notes.h                       test-chmtime.c
+alias.c                       git-archimport.perl           object.c                      test-config.c
+alloc.c                       git-bisect.sh                 object.h                      test-ctype.c
+archive-tar.c                 git-compat-util.h             pack-bitmap-write.c           test-date.c
+archive-zip.c                 git-cvsexportcommit.perl      pack-bitmap.c                 test-delta.c
+archive.c                     git-cvsimport.perl            pack-bitmap.h                 test-dump-cache-tree.c
+archive.h                     git-cvsserver.perl            pack-check.c                  test-dump-split-index.c
+argv-array.c                  git-difftool--helper.sh       pack-objects.c                test-dump-untracked-cache.c
+argv-array.h                  git-difftool.perl             pack-objects.h                test-genrandom.c
+attr.c                        git-filter-branch.sh          pack-revindex.c               test-hashmap.c
+attr.h                        git-gui                       pack-revindex.h               test-index-version.c
+base85.c                      git-instaweb.sh               pack-write.c                  test-line-buffer.c
+bisect.c                      git-merge-octopus.sh          pack.h                        test-match-trees.c
+bisect.h                      git-merge-one-file.sh         pager.c                       test-mergesort.c
+blob.c                        git-merge-resolve.sh          parse-options-cb.c            test-mktemp.c
+blob.h                        git-mergetool--lib.sh         parse-options.c               test-parse-options.c
+block-sha1                    git-mergetool.sh              parse-options.h               test-path-utils.c
+branch.c                      git-p4.py                     patch-delta.c                 test-prio-queue.c
+branch.h                      git-parse-remote.sh           patch-ids.c                   test-read-cache.c
+builtin                       git-pull.sh                   patch-ids.h                   test-regex.c
+builtin.h                     git-quiltimport.sh            path.c                        test-revision-walking.c
+bulk-checkin.c                git-rebase--am.sh             pathspec.c                    test-run-command.c
+bulk-checkin.h                git-rebase--interactive.sh    pathspec.h                    test-scrap-cache-tree.c
+bundle.c                      git-rebase--merge.sh          perl                          test-sha1-array.c
+bundle.h                      git-rebase.sh                 pkt-line.c                    test-sha1.c
+cache-tree.c                  git-relink.perl               pkt-line.h                    test-sha1.sh
+cache-tree.h                  git-remote-testgit.sh         po                            test-sigchain.c
+cache.h                       git-request-pull.sh           ppc                           test-string-list.c
+check-builtins.sh             git-send-email.perl           preload-index.c               test-subprocess.c
+check-racy.c                  git-sh-i18n.sh                pretty.c                      test-svn-fe.c
+check_bindir                  git-sh-setup.sh               prio-queue.c                  test-urlmatch-normalization.c
+color.c                       git-stash.sh                  prio-queue.h                  test-wildmatch.c
+color.h                       git-submodule.sh              progress.c                    thread-utils.c
+column.c                      git-svn.perl                  progress.h                    thread-utils.h
+column.h                      git-web--browse.sh            prompt.c                      trace.c
+combine-diff.c                git.c                         prompt.h                      trace.h
+command-list.txt              git.rc                        quote.c                       trailer.c
+commit-slab.h                 git.spec.in                   quote.h                       trailer.h
+commit.c                      gitk-git                      reachable.c                   transport-helper.c
+commit.h                      gitweb                        reachable.h                   transport.c
+compat                        gpg-interface.c               read-cache.c                  transport.h
+config.c                      gpg-interface.h               reflog-walk.c                 tree-diff.c
+config.mak.in                 graph.c                       reflog-walk.h                 tree-walk.c
+config.mak.uname              graph.h                       refs.c                        tree-walk.h
+configure.ac                  grep.c                        refs.h                        tree.c
+connect.c                     grep.h                        remote-curl.c                 tree.h
+connect.h                     hashmap.c                     remote-testsvn.c              unicode_width.h
+connected.c                   hashmap.h                     remote.c                      unimplemented.sh
+connected.h                   help.c                        remote.h                      unix-socket.c
+contrib                       help.h                        replace_object.c              unix-socket.h
+convert.c                     hex.c                         rerere.c                      unpack-trees.c
+convert.h                     http-backend.c                rerere.h                      unpack-trees.h
+copy.c                        http-fetch.c                  resolve-undo.c                update_unicode.sh
+credential-cache--daemon.c    http-push.c                   resolve-undo.h                upload-pack.c
+credential-cache.c            http-walker.c                 revision.c                    url.c
+credential-store.c            http.c                        revision.h                    url.h
+credential.c                  http.h                        run-command.c                 urlmatch.c
+credential.h                  ident.c                       run-command.h                 urlmatch.h
+csum-file.c                   imap-send.c                   send-pack.c                   usage.c
+csum-file.h                   khash.h                       send-pack.h                   userdiff.c
+ctype.c                       kwset.c                       sequencer.c                   userdiff.h
+daemon.c                      kwset.h                       sequencer.h                   utf8.c
+date.c                        levenshtein.c                 server-info.c                 utf8.h
+decorate.c                    levenshtein.h                 setup.c                       varint.c
+decorate.h                    line-log.c                    sh-i18n--envsubst.c           varint.h
+delta.h                       line-log.h                    sha1-array.c                  vcs-svn
+diff-delta.c                  line-range.c                  sha1-array.h                  version.c
+diff-lib.c                    line-range.h                  sha1-lookup.c                 version.h
+diff-no-index.c               list-objects.c                sha1-lookup.h                 versioncmp.c
+diff.c                        list-objects.h                sha1_file.c                   walker.c
+diff.h                        ll-merge.c                    sha1_name.c                   walker.h
+diffcore-break.c              ll-merge.h                    shallow.c                     wildmatch.c
+diffcore-delta.c              lockfile.c                    shell.c                       wildmatch.h
+diffcore-order.c              lockfile.h                    shortlog.h                    wrap-for-bin.sh
+diffcore-pickaxe.c            log-tree.c                    show-index.c                  wrapper.c
+diffcore-rename.c             log-tree.h                    sideband.c                    write_or_die.c
+diffcore.h                    mailmap.c                     sideband.h                    ws.c
+dir.c                         mailmap.h                     sigchain.c                    wt-status.c
+dir.h                         match-trees.c                 sigchain.h                    wt-status.h
+editor.c                      merge-blobs.c                 split-index.c                 xdiff
+entry.c                       merge-blobs.h                 split-index.h                 xdiff-interface.c
+environment.c                 merge-recursive.c             strbuf.c                      xdiff-interface.h
+ewah                          merge-recursive.h             strbuf.h                      zlib.c
+exec_cmd.c                    merge.c                       streaming.c
+~/github/git (master)  > sublime log-tree.h
+~/github/git (master)  > 
+~/github/git (master)  > git log -L :log_tree_diff_flush:log-tree.h
+commit cd2bdc5309461034e5cc58e1d3e87535ed9e093b
+Author: Linus Torvalds <torvalds@osdl.org>
+Date:   Fri Apr 14 16:52:13 2006 -0700
+
+    Common option parsing for "git log --diff" and friends
+    
+    This basically does a few things that are sadly somewhat interdependent,
+    and nontrivial to split out
+    
+     - get rid of "struct log_tree_opt"
+    
+       The fields in "log_tree_opt" are moved into "struct rev_info", and all
+       users of log_tree_opt are changed to use the rev_info struct instead.
+    
+     - add the parsing for the log_tree_opt arguments to "setup_revision()"
+    
+     - make setup_revision set a flag (revs->diff) if the diff-related
+       arguments were used. This allows "git log" to decide whether it wants
+       to show diffs or not.
+    
+     - make setup_revision() also initialize the diffopt part of rev_info
+       (which we had from before, but we just didn't initialize it)
+    
+     - make setup_revision() do all the "finishing touches" on it all (it will
+       do the proper flag combination logic, and call "diff_setup_done()")
+    
+    Now, that was the easy and straightforward part.
+    
+    The slightly more involved part is that some of the programs that want to
+    use the new-and-improved rev_info parsing don't actually want _commits_,
+    they may want tree'ish arguments instead. That meant that I had to change
+    setup_revision() to parse the arguments not into the "revs->commits" list,
+    but into the "revs->pending_objects" list.
+    
+    Then, when we do "prepare_revision_walk()", we walk that list, and create
+    the sorted commit list from there.
+    
+    This actually cleaned some stuff up, but it's the less obvious part of the
+    patch, and re-organized the "revision.c" logic somewhat. It actually paves
+    the way for splitting argument parsing _entirely_ out of "revision.c",
+    since now the argument parsing really is totally independent of the commit
+    walking: that didn't use to be true, since there was lots of overlap with
+    get_commit_reference() handling etc, now the _only_ overlap is the shared
+    (and trivial) "add_pending_object()" thing.
+    
+    However, I didn't do that file split, just because I wanted the diff
+    itself to be smaller, and show the actual changes more clearly. If this
+    gets accepted, I'll do further cleanups then - that includes the file
+    split, but also using the new infrastructure to do a nicer "git diff" etc.
+    
+    Even in this form, it actually ends up removing more lines than it adds.
+    
+    It's nice to note how simple and straightforward this makes the built-in
+    "git log" command, even though it continues to support all the diff flags
+    walking: that didn't use to be true, since there was lots of overlap with
+    get_commit_reference() handling etc, now the _only_ overlap is the shared
+    (and trivial) "add_pending_object()" thing.
+    
+    However, I didn't do that file split, just because I wanted the diff
+    itself to be smaller, and show the actual changes more clearly. If this
+    gets accepted, I'll do further cleanups then - that includes the file
+    split, but also using the new infrastructure to do a nicer "git diff" etc.
+    
+    Even in this form, it actually ends up removing more lines than it adds.
+    
+    It's nice to note how simple and straightforward this makes the built-in
+    "git log" command, even though it continues to support all the diff flags
+    too. It doesn't get much simpler that this.
+    
+    I think this is worth merging soonish, because it does allow for future
+    cleanup and even more sharing of code. However, it obviously touches
+    "revision.c", which is subtle. I've tested that it passes all the tests we
+    have, and it passes my "looks sane" detector, but somebody else should
+    also give it a good look-over.
+    
+    [jc: squashed the original and three "oops this too" updates, with
+     another fix-up.]
+    
+    Signed-off-by: Linus Torvalds <torvalds@osdl.org>
+    Signed-off-by: Junio C Hamano <junkio@cox.net>
+
+diff --git a/log-tree.h b/log-tree.h
+--- a/log-tree.h
++++ b/log-tree.h
+@@ -18,4 +7,1 @@
+-void init_log_tree_opt(struct log_tree_opt *);
+-int log_tree_diff_flush(struct log_tree_opt *);
+~/github/git (master)  > git log --oneline -L :log_tree_diff_flush:log-tree.h
+cd2bdc5 Common option parsing for "git log --diff" and friends
+
+diff --git a/log-tree.h b/log-tree.h
+--- a/log-tree.h
++++ b/log-tree.h
+@@ -18,4 +7,1 @@
+-void init_log_tree_opt(struct log_tree_opt *);
+-int log_tree_diff_flush(struct log_tree_opt *);
+-int log_tree_commit(struct log_tree_opt *, struct commit *);
+-int log_tree_opt_parse(struct log_tree_opt *, const char **, int);
++int log_tree_diff_flush(struct rev_info *);
+5f1c3f0 log-tree: separate major part of diff-tree.
+
+diff --git a/log-tree.h b/log-tree.h
+--- /dev/null
++++ b/log-tree.h
+@@ -0,0 +18,4 @@
++void init_log_tree_opt(struct log_tree_opt *);
++int log_tree_diff_flush(struct log_tree_opt *);
++int log_tree_commit(struct log_tree_opt *, struct commit *);
++int log_tree_opt_parse(struct log_tree_opt *, const char **, int);
+~/github/git (master)  > 
+~/github/git (master)  > git log -L 10,12:log-tree.h
+commit 8852117a603c5ed5131233a80453db37c0958871
+Author: Jonathan Nieder <jrnieder@gmail.com>
+Date:   Tue Oct 7 15:16:57 2014 -0400
+
+    pass config slots as pointers instead of offsets
+    
+    Many config-parsing helpers, like parse_branch_color_slot,
+    take the name of a config variable and an offset to the
+    "slot" name (e.g., "color.branch.plain" is passed along with
+    "13" to effectively pass "plain"). This is leftover from the
+    time that these functions would die() on error, and would
+    want the full variable name for error reporting.
+    
+    These days they do not use the full variable name at all.
+    Passing a single pointer to the slot name is more natural,
+    and lets us more easily adjust the callers to use skip_prefix
+    to avoid manually writing offset numbers.
+    
+    This is effectively a continuation of 9e1a5eb, which did the
+    same for parse_diff_color_slot. This patch covers all of the
+    remaining similar constructs.
+    
+    Signed-off-by: Jonathan Nieder <jrnieder@gmail.com>
+    Signed-off-by: Jeff King <peff@peff.net>
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+diff --git a/log-tree.h b/log-tree.h
+--- a/log-tree.h
++++ b/log-tree.h
+@@ -10,3 +10,3 @@
+-int parse_decorate_color_config(const char *var, const int ofs, const char *value);
++int parse_decorate_color_config(const char *var, const char *slot_name, const char *value);
+ void init_log_tree_opt(struct rev_info *);
+ int log_tree_diff_flush(struct rev_info *);
+
+commit 5e11bee65f601ba97dc4c61c75fcb2f448fdcb1c
+Author: Nazri Ramliy <ayiehere@gmail.com>
+Date:   Thu Jun 24 08:21:16 2010 +0800
+
+    Allow customizable commit decorations colors
+    
+    Signed-off-by: Nazri Ramliy <ayiehere@gmail.com>
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+diff --git a/log-tree.h b/log-tree.h
+--- a/log-tree.h
++++ b/log-tree.h
+@@ -10,2 +10,3 @@
++int parse_decorate_color_config(const char *var, const int ofs, const char *value);
+ void init_log_tree_opt(struct rev_info *);
+ int log_tree_diff_flush(struct rev_info *);
+
+commit cd2bdc5309461034e5cc58e1d3e87535ed9e093b
+Author: Linus Torvalds <torvalds@osdl.org>
+Date:   Fri Apr 14 16:52:13 2006 -0700
+
+    Common option parsing for "git log --diff" and friends
+    
+    This basically does a few things that are sadly somewhat interdependent,
+    and nontrivial to split out
+    
+     - get rid of "struct log_tree_opt"
+~/github/git (master)  > git log --oneline -L 10,12:log-tree.h
+8852117 pass config slots as pointers instead of offsets
+
+diff --git a/log-tree.h b/log-tree.h
+--- a/log-tree.h
++++ b/log-tree.h
+@@ -10,3 +10,3 @@
+-int parse_decorate_color_config(const char *var, const int ofs, const char *value);
++int parse_decorate_color_config(const char *var, const char *slot_name, const char *value);
+ void init_log_tree_opt(struct rev_info *);
+ int log_tree_diff_flush(struct rev_info *);
+5e11bee Allow customizable commit decorations colors
+
+diff --git a/log-tree.h b/log-tree.h
+--- a/log-tree.h
++++ b/log-tree.h
+@@ -10,2 +10,3 @@
++int parse_decorate_color_config(const char *var, const int ofs, const char *value);
+ void init_log_tree_opt(struct rev_info *);
+ int log_tree_diff_flush(struct rev_info *);
+cd2bdc5 Common option parsing for "git log --diff" and friends
+
+diff --git a/log-tree.h b/log-tree.h
+--- a/log-tree.h
++++ b/log-tree.h
+@@ -18,4 +6,2 @@
+-void init_log_tree_opt(struct log_tree_opt *);
+-int log_tree_diff_flush(struct log_tree_opt *);
+-int log_tree_commit(struct log_tree_opt *, struct commit *);
+-int log_tree_opt_parse(struct log_tree_opt *, const char **, int);
++void init_log_tree_opt(struct rev_info *);
++int log_tree_diff_flush(struct rev_info *);
+5f1c3f0 log-tree: separate major part of diff-tree.
+
+...skipping...
+8852117 pass config slots as pointers instead of offsets
+
+diff --git a/log-tree.h b/log-tree.h
+--- a/log-tree.h
++++ b/log-tree.h
+@@ -10,3 +10,3 @@
+-int parse_decorate_color_config(const char *var, const int ofs, const char *value);
++int parse_decorate_color_config(const char *var, const char *slot_name, const char *value);
+ void init_log_tree_opt(struct rev_info *);
+ int log_tree_diff_flush(struct rev_info *);
+5e11bee Allow customizable commit decorations colors
+
+diff --git a/log-tree.h b/log-tree.h
+--- a/log-tree.h
++++ b/log-tree.h
+@@ -10,2 +10,3 @@
++int parse_decorate_color_config(const char *var, const int ofs, const char *value);
+ void init_log_tree_opt(struct rev_info *);
+ int log_tree_diff_flush(struct rev_info *);
+cd2bdc5 Common option parsing for "git log --diff" and friends
+
+diff --git a/log-tree.h b/log-tree.h
+--- a/log-tree.h
++++ b/log-tree.h
+@@ -18,4 +6,2 @@
+-void init_log_tree_opt(struct log_tree_opt *);
+-int log_tree_diff_flush(struct log_tree_opt *);
+-int log_tree_commit(struct log_tree_opt *, struct commit *);
+-int log_tree_opt_parse(struct log_tree_opt *, const char **, int);
++void init_log_tree_opt(struct rev_info *);
++int log_tree_diff_flush(struct rev_info *);
+5f1c3f0 log-tree: separate major part of diff-tree.
+
+~/github/git (master)  > 
+~/github/git (master)  > git log --oneline -L 10,12:log-tree.h
+8852117 pass config slots as pointers instead of offsets
+
+diff --git a/log-tree.h b/log-tree.h
+--- a/log-tree.h
++++ b/log-tree.h
+@@ -10,3 +10,3 @@
+-int parse_decorate_color_config(const char *var, const int ofs, const char *value);
++int parse_decorate_color_config(const char *var, const char *slot_name, const char *value);
+8852117 pass config slots as pointers instead of offsets
+
+diff --git a/log-tree.h b/log-tree.h
+--- a/log-tree.h
++++ b/log-tree.h
+@@ -10,3 +10,3 @@
+-int parse_decorate_color_config(const char *var, const int ofs, const char *value);
++int parse_decorate_color_config(const char *var, const char *slot_name, const char *value);
+ void init_log_tree_opt(struct rev_info *);
+ int log_tree_diff_flush(struct rev_info *);
+5e11bee Allow customizable commit decorations colors
+
+diff --git a/log-tree.h b/log-tree.h
+--- a/log-tree.h
++++ b/log-tree.h
+@@ -10,2 +10,3 @@
++int parse_decorate_color_config(const char *var, const int ofs, const char *value);
+ void init_log_tree_opt(struct rev_info *);
+ int log_tree_diff_flush(struct rev_info *);
+cd2bdc5 Common option parsing for "git log --diff" and friends
+
+diff --git a/log-tree.h b/log-tree.h
+--- a/log-tree.h
++++ b/log-tree.h
+@@ -18,4 +6,2 @@
+-void init_log_tree_opt(struct log_tree_opt *);
+-int log_tree_diff_flush(struct log_tree_opt *);
+-int log_tree_commit(struct log_tree_opt *, struct commit *);
+-int log_tree_opt_parse(struct log_tree_opt *, const char **, int);
++void init_log_tree_opt(struct rev_info *);
++int log_tree_diff_flush(struct rev_info *);
+5f1c3f0 log-tree: separate major part of diff-tree.
+
+~/github/git (master)  > 
+~/github/git (master)  > git branch
+* master
+  next
+  todo
+~/github/git (master)  > git checkout -b featA
+Switched to a new branch 'featA'
+~/github/git (featA)  > touch demo.md
+~/github/git (featA)  > git status
+On branch featA
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+  demo.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+~/github/git (featA)  > git add demo.md
+~/github/git (featA)  > git commit -m "show history across branches"
+[featA c9256e9] show history across branches
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 demo.md
+~/github/git (featA)  > git checkout master 
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+~/github/git (master)  > touch never-do-this.md
+~/github/git (master)  > git add never-do-this.md
+~/github/git (master)  > git commit -m "do as I say, not as I do..."
+[master 529b705] do as I say, not as I do...
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 never-do-this.md
+~/github/git (master)  > git checkout featA 
+Switched to branch 'featA'
+~/github/git (featA)  > git log featA..master 
+commit 529b705ade7f881286022ffe4536e32ffba7de17
+Author: Patrick McKenna <patrickbm@github.com>
+Date:   Tue Jun 23 09:30:38 2015 -0700
+
+    do as I say, not as I do...
+~/github/git (featA)  > git log master..featA 
+commit c9256e9bf7aeb57da6c5625015647222f94e2c98
+Author: Patrick McKenna <patrickbm@github.com>
+Date:   Tue Jun 23 09:29:32 2015 -0700
+
+    show history across branches
+~/github/git (featA)  > git log master..
+commit c9256e9bf7aeb57da6c5625015647222f94e2c98
+Author: Patrick McKenna <patrickbm@github.com>
+Date:   Tue Jun 23 09:29:32 2015 -0700
+
+    show history across branches
+~/github/git (featA)  > git log ..master 
+commit 529b705ade7f881286022ffe4536e32ffba7de17
+Author: Patrick McKenna <patrickbm@github.com>
+Date:   Tue Jun 23 09:30:38 2015 -0700
+
+    do as I say, not as I do...
+~/github/git (featA)  > git log featA ^master
+commit c9256e9bf7aeb57da6c5625015647222f94e2c98
+Author: Patrick McKenna <patrickbm@github.com>
+Date:   Tue Jun 23 09:29:32 2015 -0700
+
+    show history across branches
+~/github/git (featA)  > git log featA --not master
+commit c9256e9bf7aeb57da6c5625015647222f94e2c98
+Author: Patrick McKenna <patrickbm@github.com>
+Date:   Tue Jun 23 09:29:32 2015 -0700
+
+    show history across branches
+~/github/git (featA)  > git checkout -b featB
+~/github/git (featA)  > git checkout -b featB
+~/github/git (featA)  > git log
+commit c9256e9bf7aeb57da6c5625015647222f94e2c98
+Author: Patrick McKenna <patrickbm@github.com>
+Date:   Tue Jun 23 09:29:32 2015 -0700
+
+    show history across branches
+
+commit 5b1d901c0173b41010856e30776c92d02987ea25
+Author: Matthieu Moy <Matthieu.Moy@imag.fr>
+Date:   Thu Jun 18 10:46:04 2015 +0200
+
+    git-multimail: update to release 1.1.0
+    
+    The changes are described in CHANGES.
+    
+    Contributions-by: Matthieu Moy <Matthieu.Moy@imag.fr>
+    Contributions-by: Richard Hansen <rhansen@rhansen.org>
+    Contributions-by: Michael Haggerty <mhagger@alum.mit.edu>
+    Contributions-by: Elijah Newren <newren@gmail.com>
+    Contributions-by: Luke Mewburn <luke@mewburn.net>
+    Contributions-by: Dave Boutcher <daveboutcher@gmail.com>
+    Contributions-by: Azat Khuzhin <a3at.mail@gmail.com>
+    Contributions-by: Sebastian Schuberth <sschuberth@gmail.com>
+    Contributions-by: Mikko Johannes Koivunalho <mikko.koivunalho@iki.fi>
+    Contributions-by: Elijah Newren <newren@palantir.com>
+    Contributions-by: Benoît Ryder <benoit@ryder.fr>
+    Signed-off-by: Matthieu Moy <Matthieu.Moy@imag.fr>
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit 16da57c7c6c1fe92b32645202dd19657a89dd67d
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:39:31 2015 -0700
+
+    Eighth batch for 2.5
+~/github/git (featA)  > git checkout master 
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+~/github/git (master)  > git log
+commit 529b705ade7f881286022ffe4536e32ffba7de17
+Author: Patrick McKenna <patrickbm@github.com>
+Date:   Tue Jun 23 09:30:38 2015 -0700
+
+    do as I say, not as I do...
+
+commit 5b1d901c0173b41010856e30776c92d02987ea25
+Author: Matthieu Moy <Matthieu.Moy@imag.fr>
+Date:   Thu Jun 18 10:46:04 2015 +0200
+
+    git-multimail: update to release 1.1.0
+    
+    The changes are described in CHANGES.
+    
+    Contributions-by: Matthieu Moy <Matthieu.Moy@imag.fr>
+    Contributions-by: Richard Hansen <rhansen@rhansen.org>
+    Contributions-by: Michael Haggerty <mhagger@alum.mit.edu>
+    Contributions-by: Elijah Newren <newren@gmail.com>
+    Contributions-by: Luke Mewburn <luke@mewburn.net>
+    Contributions-by: Dave Boutcher <daveboutcher@gmail.com>
+    Contributions-by: Azat Khuzhin <a3at.mail@gmail.com>
+    Contributions-by: Sebastian Schuberth <sschuberth@gmail.com>
+    Contributions-by: Mikko Johannes Koivunalho <mikko.koivunalho@iki.fi>
+    Contributions-by: Elijah Newren <newren@palantir.com>
+    Contributions-by: Benoît Ryder <benoit@ryder.fr>
+    Signed-off-by: Matthieu Moy <Matthieu.Moy@imag.fr>
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+commit 16da57c7c6c1fe92b32645202dd19657a89dd67d
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Tue Jun 16 14:39:31 2015 -0700
+
+    Eighth batch for 2.5
+~/github/git (master)  > git checkout -b featB 5b1d901c0173b41010856e30776c92d02987ea25
+Switched to a new branch 'featB'
+~/github/git (featB)  > git log featB..featA
+commit c9256e9bf7aeb57da6c5625015647222f94e2c98
+Author: Patrick McKenna <patrickbm@github.com>
+Date:   Tue Jun 23 09:29:32 2015 -0700
+
+    show history across branches
+~/github/git (featB)  > git log featA..
+~/github/git (featB)  > 
+~/github/git (featB)  > touch new-commit.md
+~/github/git (featB)  > git add new-commit.md
+~/github/git (featB)  > git commit -m "need another commit"
+[featB f76d493] need another commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 new-commit.md
+~/github/git (featB)  > git log featA featB --not master 
+commit f76d493d7639c10249bea0a47e775c13a7cb5230
+Author: Patrick McKenna <patrickbm@github.com>
+Date:   Tue Jun 23 09:35:56 2015 -0700
+
+    need another commit
+
+commit c9256e9bf7aeb57da6c5625015647222f94e2c98
+Author: Patrick McKenna <patrickbm@github.com>
+Date:   Tue Jun 23 09:29:32 2015 -0700
+
+    show history across branches
+~/github/git (featB)  > git log master --not featA featB
+commit 529b705ade7f881286022ffe4536e32ffba7de17
+Author: Patrick McKenna <patrickbm@github.com>
+Date:   Tue Jun 23 09:30:38 2015 -0700
+
+    do as I say, not as I do...
+~/github/git (featB)  > git log master ^featA featB
+commit f76d493d7639c10249bea0a47e775c13a7cb5230
+Author: Patrick McKenna <patrickbm@github.com>
+Date:   Tue Jun 23 09:35:56 2015 -0700
+
+    need another commit
+
+commit 529b705ade7f881286022ffe4536e32ffba7de17
+Author: Patrick McKenna <patrickbm@github.com>
+Date:   Tue Jun 23 09:30:38 2015 -0700
+
+    do as I say, not as I do...
+~/github/git (featB)  > git log master ^featA ^featB
+commit 529b705ade7f881286022ffe4536e32ffba7de17
+Author: Patrick McKenna <patrickbm@github.com>
+Date:   Tue Jun 23 09:30:38 2015 -0700
+
+    do as I say, not as I do...
+~/github/git (featB)  > 
+~/github/git (featB)  > git log featA...featB
+commit f76d493d7639c10249bea0a47e775c13a7cb5230
+Author: Patrick McKenna <patrickbm@github.com>
+Date:   Tue Jun 23 09:35:56 2015 -0700
+
+    need another commit
+
+commit c9256e9bf7aeb57da6c5625015647222f94e2c98
+Author: Patrick McKenna <patrickbm@github.com>
+Date:   Tue Jun 23 09:29:32 2015 -0700
+
+    show history across branches
+~/github/git (featB)  > git log --left-right featA...featB
+commit > f76d493d7639c10249bea0a47e775c13a7cb5230
+Author: Patrick McKenna <patrickbm@github.com>
+Date:   Tue Jun 23 09:35:56 2015 -0700
+
+    need another commit
+
+commit < c9256e9bf7aeb57da6c5625015647222f94e2c98
+Author: Patrick McKenna <patrickbm@github.com>
+Date:   Tue Jun 23 09:29:32 2015 -0700
+
+    show history across branches
+~/github/git (featB)  > git branch
+  featA
+* featB
+  master
+  next
+  todo
+~/github/git (featB)  > 
+
+
+
+~/github/git (featB)  > git log --oneline --graph --decorate --all
+* f76d493 (HEAD -> featB) need another commit
+* f76d493 (HEAD -> featB) need another commit
+| * 529b705 (master) do as I say, not as I do...
+* f76d493 (HEAD -> featB) need another commit
+| * 529b705 (master) do as I say, not as I do...
+|/  
+| * c9256e9 (featA) show history across branches
+|/  
+| *   6030e6d (origin/pu) Merge branch 'ak/format-patch-odir-config' into pu
+| |\  
+| | * ecc87d3 format-patch: introduce format.outputDirectory configuration
+| |/  
+|/|   
+| *   adfc440 Merge branch 'jk/pretty-encoding-doc' into pu
+| |\  
+| | * e479c5f docs: clarify that --encoding can produce invalid sequences
+| * |   e8a2257 Merge branch 'rh/test-color-avoid-terminfo-in-original-home' into pu
+| |\ \  
+| | * | d5c1b7c test-lib.sh: fix color support when tput needs ~/.terminfo
+| | * | ca92a66 Revert "test-lib.sh: do tests for color support after changing HOME"
+| * | |   4681807 Merge branch 'tb/checkout-doc' into pu
+| |\ \ \  
+| | * | | c4ac525 git-checkout.txt: document "git checkout <pathspec>" better
+| * | | |   ceebb1d Merge branch 'mm/describe-doc' into pu
+| |\ \ \ \  
+| | * | | | 25f600e Documentation/describe: improve one-line summary
+| * | | | |   14e0b5b Merge branch 'me/fetch-into-shallow-safety' into pu
+| |\ \ \ \ \  
+| | * | | | | eb86a50 fetch-pack: check for shallow if depth given
+| | | |_|_|/  
+| | |/| | |   
+| * | | | |   776afcc Merge branch 'js/rebase-i-clean-up-upon-continue-to-skip' into pu
+| |\ \ \ \ \  
+| | * | | | | a2d23c6 rebase -i: do not leave a CHERRY_PICK_HEAD file behind
+| | * | | | | 85f905c SQUASH: test_must_fail is a shell function
+| | * | | | | ac19373 t3404: demonstrate CHERRY_PICK_HEAD bug
+| | | |/ / /  
+| | |/| | |   
+~/github/git (featB)  > git log --oneline --decorate --graph --all
+* f76d493 (HEAD -> featB) need another commit
+| * 529b705 (master) do as I say, not as I do...
+|/  
+| * c9256e9 (featA) show history across branches
+|/  
+| *   6030e6d (origin/pu) Merge branch 'ak/format-patch-odir-config' into pu
+| |\  
+| | * ecc87d3 format-patch: introduce format.outputDirectory configuration
+| |/  
+|/|   
+| *   adfc440 Merge branch 'jk/pretty-encoding-doc' into pu
+| |\  
+| | * e479c5f docs: clarify that --encoding can produce invalid sequences
+| * |   e8a2257 Merge branch 'rh/test-color-avoid-terminfo-in-original-home' into pu
+| |\ \  
+| | * | d5c1b7c test-lib.sh: fix color support when tput needs ~/.terminfo
+| | * | ca92a66 Revert "test-lib.sh: do tests for color support after changing HOME"
+| * | |   4681807 Merge branch 'tb/checkout-doc' into pu
+| |\ \ \  
+| | * | | c4ac525 git-checkout.txt: document "git checkout <pathspec>" better
+| * | | |   ceebb1d Merge branch 'mm/describe-doc' into pu
+| |\ \ \ \  
+| | * | | | 25f600e Documentation/describe: improve one-line summary
+| * | | | |   14e0b5b Merge branch 'me/fetch-into-shallow-safety' into pu
+| |\ \ \ \ \  
+| | * | | | | eb86a50 fetch-pack: check for shallow if depth given
+| | | |_|_|/  
+| | |/| | |   
+| * | | | |   776afcc Merge branch 'js/rebase-i-clean-up-upon-continue-to-skip' into pu
+| |\ \ \ \ \  
+| | * | | | | a2d23c6 rebase -i: do not leave a CHERRY_PICK_HEAD file behind
+| | * | | | | 85f905c SQUASH: test_must_fail is a shell function
+| | * | | | | ac19373 t3404: demonstrate CHERRY_PICK_HEAD bug
+~/github/git (featB)  > 
+~/github/git (featB)  > git lga
+* f76d493 (HEAD -> featB) need another commit
+| * 529b705 (master) do as I say, not as I do...
+|/  
+| * c9256e9 (featA) show history across branches
+|/  
+| *   6030e6d (origin/pu) Merge branch 'ak/format-patch-odir-config' into pu
+| |\  
+| | * ecc87d3 format-patch: introduce format.outputDirectory configuration
+| |/  
+|/|   
+| *   adfc440 Merge branch 'jk/pretty-encoding-doc' into pu
+| |\  
+| | * e479c5f docs: clarify that --encoding can produce invalid sequences
+| * |   e8a2257 Merge branch 'rh/test-color-avoid-terminfo-in-original-home' into pu
+| |\ \  
+| | * | d5c1b7c test-lib.sh: fix color support when tput needs ~/.terminfo
+| | * | ca92a66 Revert "test-lib.sh: do tests for color support after changing HOME"
+| * | |   4681807 Merge branch 'tb/checkout-doc' into pu
+| |\ \ \  
+| | * | | c4ac525 git-checkout.txt: document "git checkout <pathspec>" better
+| * | | |   ceebb1d Merge branch 'mm/describe-doc' into pu
+| |\ \ \ \  
+| | * | | | 25f600e Documentation/describe: improve one-line summary
+| * | | | |   14e0b5b Merge branch 'me/fetch-into-shallow-safety' into pu
+| |\ \ \ \ \  
+| | * | | | | eb86a50 fetch-pack: check for shallow if depth given
+| | | |_|_|/  
+| | |/| | |   
+| * | | | |   776afcc Merge branch 'js/rebase-i-clean-up-upon-continue-to-skip' into pu
+| |\ \ \ \ \  
+| | * | | | | a2d23c6 rebase -i: do not leave a CHERRY_PICK_HEAD file behind
+| | * | | | | 85f905c SQUASH: test_must_fail is a shell function
+| | * | | | | ac19373 t3404: demonstrate CHERRY_PICK_HEAD bug
+~/github/git (featB)  > 
+~/github/git (featB)  > git checkout master 
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+~/github/git (master)  > git log master..origin/master 
+~/github/git (master)  > git log origin/master..master 
+commit 529b705ade7f881286022ffe4536e32ffba7de17
+Author: Patrick McKenna <patrickbm@github.com>
+Date:   Tue Jun 23 09:30:38 2015 -0700
+
+    do as I say, not as I do...
+~/github/git (master)  > 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
